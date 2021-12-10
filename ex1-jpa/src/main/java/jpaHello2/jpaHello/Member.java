@@ -4,7 +4,7 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 
 
-@Entity//jap가 인식하게하는 어노테이션 
+//@Entity//jap가 인식하게하는 어노테이션
 //@table(name =" test") 로 맵핑이 필요할경우 추가로 할수있다.(id도 동일하게 가능)
 public class Member {
     
