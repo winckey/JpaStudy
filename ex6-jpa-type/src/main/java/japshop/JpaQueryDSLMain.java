@@ -19,8 +19,6 @@ public class JpaQueryDSLMain {
         EntityManager em = emf.createEntityManager();
 
         EntityTransaction tx = em.getTransaction();
-
-
         tx.begin();
         try {
 //
