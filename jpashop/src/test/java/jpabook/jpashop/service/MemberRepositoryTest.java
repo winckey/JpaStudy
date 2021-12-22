@@ -8,6 +8,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.annotation.Rollback;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -15,11 +16,12 @@ import org.springframework.transaction.annotation.Transactional;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-@Transactional// 트렌잭션 생성 어노테이션
+@Transactional// 트렌잭션 생성 어노테이션[어노테이션 마다 한개의 트랙잭션]
 //   EntityTransaction tx = em.getTransaction();
 //        tx.begin();
 // 트랜젝션 어노테이션은 test와 함께쓰이면 롤백함수를 호출 해버린다
 // [           main] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test
+@Rollback(value = false)
 public class MemberRepositoryTest {
 
 
