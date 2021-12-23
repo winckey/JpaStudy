@@ -1,6 +1,6 @@
 package jpabook.jpashop.service;
 
-import jpabook.jpashop.Member;
+import jpabook.jpashop.domain.Member;
 import jpabook.jpashop.MemberRepository;
 import org.assertj.core.api.Assertions;
 
