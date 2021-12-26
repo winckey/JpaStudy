@@ -1,5 +1,7 @@
 package japbobk.japshop.main;
 
+import jpabook.jpashop.domain.Member;
+
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
@@ -18,6 +20,11 @@ public class JpaMain {
 
         tx.begin();
         try {
+
+            Member member = new Member();
+            member.setName("test");
+            em.persist(member);
+
 
 
 
