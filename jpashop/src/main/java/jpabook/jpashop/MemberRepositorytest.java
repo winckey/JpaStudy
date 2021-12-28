@@ -8,7 +8,7 @@ import javax.persistence.*;
 
 
 @Repository//dao와 비슷한것
-public class MemberRepository {
+public class MemberRepositorytest {
 
 
 

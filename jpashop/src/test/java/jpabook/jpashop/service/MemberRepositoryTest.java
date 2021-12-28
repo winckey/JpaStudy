@@ -1,7 +1,7 @@
 package jpabook.jpashop.service;
 
 import jpabook.jpashop.domain.Member;
-import jpabook.jpashop.MemberRepository;
+import jpabook.jpashop.MemberRepositorytest;
 import org.assertj.core.api.Assertions;
 
 import org.junit.Test;
@@ -26,7 +26,7 @@ public class MemberRepositoryTest {
 
 
     @Autowired
-    MemberRepository memberRepository;
+    MemberRepositorytest memberRepository;
 
 
     @Test//test는 함수별로 다해보기
