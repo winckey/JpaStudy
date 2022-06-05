@@ -42,7 +42,10 @@ public class JpaMain {
             member.getFavaoriteFoods().add("2");
             member.getFavaoriteFoods().add("3");
             member.getFavaoriteFoods().add("4");
-
+  member.getFavaoriteFoods().add("1");
+            member.getFavaoriteFoods().add("2");
+            member.getFavaoriteFoods().add("3");
+            member.getFavaoriteFoods().add("4");
             em.persist(member);
 
 
