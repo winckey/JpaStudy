@@ -1,6 +1,7 @@
 package japshop;
 
 import domain.Member;
+import domain.Team;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -20,33 +21,29 @@ public class JpaMain {
 
         tx.begin();
         try {
-//            Movie movie = new Movie();
-//            movie.setDirector("a");
-//            movie.setActor("bb");
-//            movie.setName("스파이터맨");
-//            movie.setPrice(12000);
-//
-//            em.persist(movie);
-//
-//            em.flush();
-//            em.clear();
+            Team team = new Team();
+            team.setName("team");
 
-            Member member = new Member();
-            member.setName("장현진2");
-            member.setCreateDate(LocalDateTime.now());
-            member.setCreateBy("admin");
-
-            em.persist(member);
+            em.persist(team);
+            Member member1 = new  Member();
+            member1.setUsername("member1");
+            member1.setTeam(team);
+            member1.getTeam().getMembers().add(member1);
+            em.persist(member1);
 
 
-            em.flush();
-            em.clear();
+            Member member2 = new  Member();
+            member2.setUsername("member2");
+            member2.setTeam(team);
+            member2.getTeam().getMembers().add(member2);
+            em.persist(member2);
 
-            Member refMember = em.getReference(Member.class , member.getId());
-            em.detach(refMember);
-            System.out.println("ref = "+member.getName());
 
+            Team team1 =em.find(Team.class , 1L);
 
+            System.out.println("+++++++++++++++++++++++++");
+            System.out.println("order =" + team.getMembers());
+            System.out.println("+++++++++++++++++++++++++");
 
 
 

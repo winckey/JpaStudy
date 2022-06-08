@@ -5,15 +5,92 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d745aaf0-5130-43e3-92d9-3bc808fd02b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ex1-jpa/src/main/java/japHello4/JpaMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ex1-jpa/src/main/java/japHello4/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ex1-jpa/src/main/java/japHello4/Team.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1-jpa/src/main/java/jpaHello/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex1-jpa/src/main/java/jpaHello/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1-jpa/src/main/java/jpaHello2/jpaHello/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex1-jpa/src/main/java/jpaHello2/jpaHello/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1-jpa/src/main/java/jpaHello3/jpaHello/Member.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1-jpa/target/classes/jpaHello/Member.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ex1-jpa/target/classes/jpaHello/Member.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1-jpa/target/classes/jpaHello2/jpaHello/Member.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ex1-jpa/target/classes/jpaHello2/jpaHello/Member.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex1-jpa/target/classes/jpaHello3/jpaHello/Member.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ex2-jpa-실습/src/main/java/jpabook/jpashop/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ex5-proxy/src/main/java/domain/Team.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ex6-jpa-type/target/classes/japshop/JpaQueryDSLMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ex6-jpa-type/target/classes/japshop/JpaQueryMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spirngWithJpa/testProject/.gradle/6.8/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spirngWithJpa/testProject/.gradle/6.8/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spirngWithJpa/testProject/.gradle/6.8/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spirngWithJpa/testProject/.gradle/6.8/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spirngWithJpa/testProject/.gradle/6.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spirngWithJpa/testProject/.gradle/6.8/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spirngWithJpa/testProject/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spirngWithJpa/testProject/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spirngWithJpa/testProject/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spirngWithJpa/testProject/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spirngWithJpa/testProject/.gradle/configuration-cache/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spirngWithJpa/testProject/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spirngWithJpa/testProject/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spirngWithJpa/testProject/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spirngWithJpa/testProject/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spirngWithJpa/testProject/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spirngWithJpa/testProject/.idea/libraries-with-intellij-classes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spirngWithJpa/testProject/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spirngWithJpa/testProject/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spirngWithJpa/testProject/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spirngWithJpa/testProject/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spirngWithJpa/testProject/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spirngWithJpa/testProject/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spirngWithJpa/testProject/src/main/java/Dto/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spirngWithJpa/testProject/src/main/java/Dto/common/BaseResponseBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spirngWithJpa/testProject/src/main/java/SubApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spirngWithJpa/testProject/src/main/java/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spirngWithJpa/testProject/src/main/java/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spirngWithJpa/untitled/.gradle/6.8/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spirngWithJpa/untitled/.gradle/6.8/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spirngWithJpa/untitled/.gradle/6.8/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spirngWithJpa/untitled/.gradle/6.8/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spirngWithJpa/untitled/.gradle/6.8/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spirngWithJpa/untitled/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spirngWithJpa/untitled/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spirngWithJpa/untitled/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spirngWithJpa/untitled/.gradle/configuration-cache/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spirngWithJpa/untitled/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spirngWithJpa/untitled/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spirngWithJpa/untitled/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spirngWithJpa/untitled/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spirngWithJpa/untitled/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spirngWithJpa/untitled/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spirngWithJpa/untitled/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spirngWithJpa/untitled/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spirngWithJpa/untitled/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spirngWithJpa/untitled/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spirngWithJpa/untitled/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spirngWithJpa/untitled/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spirngWithJpa/untitled/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spirngWithJpa/untitled/src/main/java/SubApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spirngWithJpa/untitled1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spirngWithJpa/untitled1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sub/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sub/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sub/.idea/sub.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sub/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex2-jpa-실습/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex2-jpa-실습/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex2-jpa-실습/src/main/java/japbobk/japshop/main/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex2-jpa-실습/src/main/java/japbobk/japshop/main/JpaMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex2-jpa-실습/src/main/java/jpabook/jpashop/domain/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex2-jpa-실습/target/classes/japbobk/japshop/main/JpaMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ex2-jpa-실습/target/classes/japbobk/japshop/main/JpaMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex2-jpa-실습/target/classes/jpabook/jpashop/domain/Member.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex3-jpa-연관관계/target/classes/japbobk/japshop/JpaMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex3-jpa-연관관계/target/classes/jpabook/jpashop/domain/Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex3-jpa-연관관계/target/classes/jpabook/jpashop/domain/Member.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex3-jpa-연관관계/target/classes/jpabook/jpashop/domain/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex3-jpa-연관관계/target/classes/jpabook/jpashop/domain/OrderItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex3-jpa-연관관계/target/classes/jpabook/jpashop/domain/OrderStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex5-proxy/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex5-proxy/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex5-proxy/src/main/java/domain/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex5-proxy/src/main/java/domain/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex5-proxy/src/main/java/domain/Movie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex5-proxy/src/main/java/japshop/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex5-proxy/src/main/java/japshop/JpaMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex5-proxy/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex5-proxy/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex5-proxy/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex5-proxy/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex5-proxy/target/classes/domain/Member.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ex5-proxy/target/classes/domain/Member.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex5-proxy/target/classes/domain/Movie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex5-proxy/target/classes/japshop/JpaMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ex5-proxy/target/classes/japshop/JpaMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex6-jpa-type/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex6-jpa-type/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex6-jpa-type/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex6-jpa-type/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/controller/MemberController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,5 +133,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

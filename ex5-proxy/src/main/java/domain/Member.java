@@ -7,20 +7,14 @@ import javax.persistence.*;
 @DiscriminatorValue("M")// 타입명 변경
 public class Member extends BaseEntity{
 
-    private String name;
-
-    @Id
-    @GeneratedValue
-    @Column(name ="ID")
+    @Id @Column (name = "MEMBER_ID")
     private Long id;
 
-    public String getName() {
-        return name;
-    }
+    private String username;
 
-    public void setName(String name) {
-        this.name = name;
-    }
+    @ManyToOne
+    @JoinColumn (name = "TEAM_ID")
+    private Team team;
 
     public Long getId() {
         return id;
@@ -28,5 +22,21 @@ public class Member extends BaseEntity{
 
     public void setId(Long id) {
         this.id = id;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public Team getTeam() {
+        return team;
+    }
+
+    public void setTeam(Team team) {
+        this.team = team;
     }
 }

@@ -36,7 +36,10 @@ public class JpaMain {
             member.setName("장현진");
             member.setCreateDate(LocalDateTime.now());
             member.setCreateBy("admin");
-
+ Member member = new Member();
+            member.setName("장현진");
+            member.setCreateDate(LocalDateTime.now());
+            member.setCreateBy("admin");
             em.persist(member);
 
 
